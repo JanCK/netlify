@@ -1,0 +1,30 @@
+backend:
+  name: git-gateway
+  branch: master
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+
+
+media_folder: "static/images/uploads"
+publish_folder: "/images/uploads"
+
+
+collections:
+  name: "coding"
+  label: "Coding"
+  folder: "content/coding"
+  create: true
+  slig: "{{year}}--{{slug}}"
+  fields:
+    { label: "Titel", name: "title", widget: "string", required: true, default: "Hamburgusfons" }
+    { label: "Draft", name: "draft", widget: "boolean", default: true }
+    { label: "Type", name: "type", widget: "hidden", default: "post" }
+    { label: "Created", name: "created", widget: "date", default: "", format: "DD.MM.YYYY" }
+    { label: "Start time", name: "start", widget: "datetime", default: "", format: "LLL" }
+    { label: "Blog post content", name: "body", widget: "markdown" }
+    { label: "Description", name: "description", widget: "text" }
+    { label: "Datei", name: file", widget: "file", default: false }
+    { label: "Tags", name: "tags", widget: "list", default: false }
+    { label: "Header", name: "header", widget: "image", default: false }
+    { label: "Nummer", name: "length", widget: "number", default: 0, valueType: "int", min: 0, max: 10 }
