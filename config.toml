@@ -1,4 +1,4 @@
-baseURL = "https://tatendrang.netlify.com"
+baseURL = "netlify-test.tatendrang.com"
 languageCode = "de-de"
 title = "My New Hugo Site"
 theme = "tale-hugo"
