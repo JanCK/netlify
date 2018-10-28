@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://tatendrang.netlify.com/about/</loc>
     <lastmod>2018-10-26T13:11:17+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/my-first-post/</loc>
+    <loc>https://tatendrang.netlify.com/posts/my-first-post/</loc>
     <lastmod>2018-10-26T13:09:18+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://tatendrang.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2018-10-26T13:09:18+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://tatendrang.netlify.com/</loc>
     <lastmod>2018-10-26T13:09:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://tatendrang.netlify.com/posts/</loc>
+    <lastmod>2018-10-26T13:09:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tatendrang.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,12 +1,7 @@
 backend:
-  name: bitbucket
-  repo: JanCK/netlify-test
-  branch: master
-  publish_mode: editorial_workflow
+  name: test-repo
 
 display_url: https://example.com
-JanCK/netlify-test
-
 
 publish_mode: editorial_workflow
 media_folder: assets/uploads
