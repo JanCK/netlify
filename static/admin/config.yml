@@ -1,6 +1,6 @@
 backend:
-  name: bitbucket
-  repo: JanCK/netlify-test
+  name: github
+  repo: JanCK/netlify
  
 display_url: https://tatendrang.netlify.com
 
