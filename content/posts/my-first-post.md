@@ -2,6 +2,7 @@
 title: "My First Post"
 date: 2018-10-26T13:09:18+02:00
 draft: false
+slug: moin
 ---
 
 Yo, VIP,
