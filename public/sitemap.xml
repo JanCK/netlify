@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>netlify-test.tatendrang.com/posts/moin/</loc>
+    <loc>tatendrang.netlify.com/posts/moin/</loc>
     <lastmod>2018-10-26T13:09:18+02:00</lastmod>
   </url>
   
   <url>
-    <loc>netlify-test.tatendrang.com/about/</loc>
+    <loc>tatendrang.netlify.com/about/</loc>
     <lastmod>1999-12-31T11:59:59-08:00</lastmod>
   </url>
   
   <url>
-    <loc>netlify-test.tatendrang.com/categories/</loc>
+    <loc>tatendrang.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>netlify-test.tatendrang.com/</loc>
+    <loc>tatendrang.netlify.com/</loc>
     <lastmod>2018-10-26T13:09:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>netlify-test.tatendrang.com/posts/</loc>
+    <loc>tatendrang.netlify.com/posts/</loc>
     <lastmod>2018-10-26T13:09:18+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>netlify-test.tatendrang.com/tags/</loc>
+    <loc>tatendrang.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   
