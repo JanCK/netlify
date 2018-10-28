@@ -5,8 +5,8 @@ backend:
 display_url: https://tatendrang.netlify.com
 
 
-media_folder: static/images/uploads
-public_folder: /images/uploads
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
 
 collections:
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
