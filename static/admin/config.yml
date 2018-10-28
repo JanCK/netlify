@@ -8,25 +8,55 @@ display_url: https://tatendrang.netlify.com
 media_folder: static/images/uploads
 public_folder: /images/uploads
 
-collections: # A list of collections the CMS should be able to edit
-  - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Posts" # Used in the UI
-    label_singular: "Post" # Used in the UI, ie: "New Post"
-    description: >
-      The description is a great place for tone setting, high level information, and editing
-      guidelines that are specific to a collection.
-    folder: "_posts"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "content/post" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
-      - label: "Cover Image"
-        name: "image"
-        widget: "image"
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Publish Date"
+        name: "date"
         required: false
-        tagname: ""
-
-      - {label: "Body", name: "body", widget: "markdown", hint: "Main content goes here."}
-    meta:
-      - {label: "SEO Description", name: "description", widget: "text"}
+        widget: "datetime"
+      - label: "Draft"
+        name: "draft"
+        required: false
+        widget: "boolean"
+        default: true
+      - label: "Categories"
+        name: "categories"
+        required: false
+        widget: "list"
+      - label: "Tags"
+        name: "tags"
+        required: false
+        widget: "list"
+      - label: "Keywords"
+        name: "keywords"
+        required: false
+        widget: "list"
+      - label: "Auto Thumbnail Image"
+        name: "autoThumbnailImage"
+        required: false
+        widget: "boolean"
+        default: true
+      - label: "Thumbnail Image Position"
+        name: "thumbnailImagePosition"
+        required: false
+        widget: "select"
+        options: ["left", "top", "right"]
+      - label: "Thumbnail Image"
+        name: "thumbnailImage"
+        required: false
+        widget: "image"
+      - label: "Cover Image"
+        name: "coverImage"
+        required: false
+        widget: "image"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
