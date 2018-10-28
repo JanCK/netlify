@@ -3,8 +3,7 @@ backend:
   repo: JanCK/netlify-test
   branch: master
 
-display_url: https://example.com
-JanCK/netlify-test
+display_url: https://tatendrang.netlify.com
 
 
 publish_mode: editorial_workflow
